@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Do Campo à Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Do Campo à Cidade</h1>
+            <p>Explorando a conexão entre o rural e o urbano</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre o Projeto</h2>
+            <p>Descrição breve do projeto "Do Campo à Cidade" e seus objetivos.</p>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2>Nossos Projetos</h2>
+            <p>Aqui você pode listar os projetos desenvolvidos, como hortas urbanas, visitas educativas, entre outros.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form id="contactForm" action="#" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            <div id="status"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Do Campo à Cidade. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
